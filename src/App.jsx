@@ -655,8 +655,14 @@ export default function App() {
                     labels: ['Pass', 'Fail'],
                     datasets: [{
                       data: [analytics.passCount, analytics.totalStudents - analytics.passCount],
-                      backgroundColor: ['#047857', '#B91C1C'],
-                      borderColor: ['#6EE7B7', '#FCA5A5'],
+                      backgroundColor: [
+                        dark ? '#34D399':'#047857', 
+                        dark ? '#FB7185':'#B91C1C'
+                      ],
+                      borderColor: [
+                        dark ? '#6EE7B7':'#6EE7B7', 
+                        dark? '#FCA5A5':'#FCA5A5'
+                      ],
                       borderWidth: 1,
                     }],
                   }}
