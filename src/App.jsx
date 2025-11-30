@@ -420,7 +420,7 @@ export default function App() {
               border border-gray-200 dark:border-gray-700 
               bg-white dark:bg-gray-800 
               text-gray-800 dark:text-gray-100 
-              focus:ring-indigo-500 focus:border-indigo-500 w-full sm:w-auto">
+              focus:ring-indigo-500 focus:border-indigo-500">
 
               <option value={0}>PB</option>
               <option value={1}>Level 1</option>
