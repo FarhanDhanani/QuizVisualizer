@@ -150,7 +150,10 @@ export default function App() {
   const [sortBy, setSortBy] = useState(null)
   const [sortDir, setSortDir] = useState('desc')
   const [selectedStudent, setSelectedStudent] = useState(null)
-  const [dark, setDark] = useDarkMode()
+  
+  // changes to restrict dark mode
+  //const [dark, setDark] = useDarkMode() 
+  const dark = false
 
   useEffect(() => {
     loadLevel(level)
