@@ -150,10 +150,7 @@ export default function App() {
   const [sortBy, setSortBy] = useState(null)
   const [sortDir, setSortDir] = useState('desc')
   const [selectedStudent, setSelectedStudent] = useState(null)
-  
-  // changes to restrict dark mode
-  //const [dark, setDark] = useDarkMode() 
-  const dark = false
+  const [dark, setDark] = useDarkMode() 
 
   useEffect(() => {
     loadLevel(level)
@@ -794,7 +791,7 @@ export default function App() {
         </Dialog>
 
         <footer className="mt-12 text-center text-sm text-gray-400 pb-8">
-          Quiz Visualizer • Reads from <code>/public/level[N]_response.csv</code> & <code>meta_level[N].csv</code>
+          Quiz Visualizer • Performance of AELP Gulshan Students</code> & <code>meta_level[N].csv</code>
         </footer>
       </div>
     </div>
