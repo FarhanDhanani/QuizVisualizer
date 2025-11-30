@@ -414,8 +414,12 @@ export default function App() {
             <select
               value={level}
               onChange={(e) => setLevel(Number(e.target.value))}
-              className="px-3 py-2 rounded-lg border border-gray-300 bg-white text-gray-800
-                        focus:ring-indigo-500 focus:border-indigo-500 w-full sm:w-auto">
+              className="px-3 py-2 rounded-lg 
+              border border-gray-200 dark:border-gray-700 
+              bg-white dark:bg-gray-800 
+              text-gray-800 dark:text-gray-100 
+              focus:ring-indigo-500 focus:border-indigo-500 w-full sm:w-auto">
+
               <option value={0}>PB</option>
               <option value={1}>Level 1</option>
               <option value={2}>Level 2</option>
