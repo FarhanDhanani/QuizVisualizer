@@ -404,10 +404,12 @@ export default function App() {
         {/* Header */}
         <header className="flex items-center justify-between mb-6">
           <div className="flex items-center gap-4">
-            <h1 className="text-2xl font-bold tracking-tight">Quiz Visualizer</h1>
+            <h1 className="text-2xl font-bold tracking-tight">Results</h1>
+            {/*
             <span className="px-2 py-0.5 rounded text-xs font-medium bg-gray-200 dark:bg-gray-700 text-gray-600 dark:text-gray-300">
               {currentLevelLabel}
             </span>
+            */}
           </div>
           <div className="flex items-center gap-2">
             {/* Level Selector DropDown */}
