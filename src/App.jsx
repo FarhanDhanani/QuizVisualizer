@@ -410,7 +410,20 @@ export default function App() {
             </span>
           </div>
           <div className="flex items-center gap-2">
+            {/* Level Selector DropDown */}
+            <select
+              value={level}
+              onChange={(e) => setLevel(Number(e.target.value))}
+              className="px-3 py-2 rounded-lg border border-gray-300 bg-white text-gray-800
+                        focus:ring-indigo-500 focus:border-indigo-500 w-full sm:w-auto">
+              <option value={0}>PB</option>
+              <option value={1}>Level 1</option>
+              <option value={2}>Level 2</option>
+              <option value={3}>Level 3</option>
+              <option value={4}>Level 4</option>
+            </select>
             {/* Level Selector Buttons */}
+            {/* 
             <div className="hidden sm:flex bg-white dark:bg-gray-800 rounded-lg p-1 shadow-sm border border-gray-200 dark:border-gray-700">
               {LEVEL_CONFIG.map(l => (
                 <button key={l.level} onClick={() => setLevel(l.level)} className={`px-4 py-1.5 rounded-md text-sm font-medium transition-colors ${level===l.level ? 'bg-indigo-600 text-white shadow-sm' : 'text-gray-60:0 dark:text-gray-400 hover:bg-gray-100 dark:hover:bg-gray-700'}`}>
@@ -418,6 +431,7 @@ export default function App() {
                 </button>
               ))}
             </div>
+            */}
             <select 
               value={location} 
               onChange={(e) => setLocation(e.target.value)}
