@@ -24,7 +24,7 @@ const DEFAULT_LOCATION= 'AliJiwani'
 
 const MONTHS = [
    "November25",
-   "December25",
+   //"December25",
 ];
 
 const RECENT_MONTH_PER_LOCATION = {
