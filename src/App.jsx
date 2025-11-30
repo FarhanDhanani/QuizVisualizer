@@ -587,12 +587,40 @@ export default function App() {
               <h3 className="text-lg font-semibold mb-4">Score Distribution</h3>
               <div className="h-64">
                 <Bar
-                  options={{ maintainAspectRatio: false, responsive: true }}
+                  options={{ 
+                    maintainAspectRatio: false, 
+                    responsive: true,
+                    plugins: {
+                      legend: {
+                        labels: {
+                          color: dark ? '#f5f5f5' : '#374151', // Legend labels: white in dark, dark gray in light
+                        },
+                      },
+                    },
+                    scales: {
+                      x: {
+                        ticks: {
+                          color: dark ? '#f5f5f5' : '#374151', // X-axis labels
+                        },
+                        grid: {
+                          color: dark ? 'rgba(255,255,255,0.1)' : 'rgba(0,0,0,0.1)', // X-axis grid lines
+                        },
+                      },
+                      y: {
+                        ticks: {
+                          color: dark ? '#f5f5f5' : '#374151', // Y-axis labels
+                        },
+                        grid: {
+                          color: dark ? 'rgba(255,255,255,0.1)' : 'rgba(0,0,0,0.1)', // Y-axis grid lines
+                        },
+                      },
+                    },
+                  }}
                   data={{
                     labels: ["0–20%", "21–40%", "41–60%", "61–80%", "81–100%"],
                     datasets: [{
                       label: "Students",
-                      backgroundColor: '#6366f1',
+                      backgroundColor: dark ? '#f5f5f5' : '#6366f1',
                       borderRadius: 4,
                       data: dataError || responses.length === 0 ? [0, 0, 0, 0, 0] : [0, 20, 40, 60, 80, 100].slice(0, 5).map((_, i) => {
                         const rangeStart = i * 20;
@@ -791,7 +819,7 @@ export default function App() {
         </Dialog>
 
         <footer className="mt-12 text-center text-sm text-gray-400 pb-8">
-          Quiz Visualizer • Performance of AELP Gulshan Students</code> & <code>meta_level[N].csv</code>
+          Quiz Visualizer • Performance of AELP Gulshan Students
         </footer>
       </div>
     </div>
