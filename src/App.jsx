@@ -439,9 +439,11 @@ export default function App() {
               }
             </select>
             {/* Dark Mode Toggle */}
+            {/*
             <button onClick={() => setDark(!dark)} className="p-2 rounded-lg bg-white dark:bg-gray-800 border border-gray-200 dark:border-gray-700 hover:bg-gray-100 dark:hover:bg-gray-700 transition-colors">
               {dark ? <SunIcon className="w-5 h-5"/> : <MoonIcon className="w-5 h-5"/>}
             </button>
+            */}
           </div>
         </header>
         
