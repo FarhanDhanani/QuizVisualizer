@@ -42,7 +42,15 @@ const MAIN_TABLE_KEYS = [
 ]
 
 function useDarkMode() {
-  const [dark, setDark] = useState(() => !!localStorage.getItem('dark'))
+  const getInitial = () => {
+    //const ls = localStorage.getItem("dark");
+    //if (ls !== null) return ls === "1";
+
+    // FIRST LOAD → Detect OS preference
+    return window.matchMedia("(prefers-color-scheme: dark)").matches;
+  };
+  const [dark, setDark] = useState(getInitial);
+
   useEffect(() => {
     const root = document.documentElement
     if (dark) {
