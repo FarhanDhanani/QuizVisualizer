@@ -3,7 +3,7 @@ import Papa from 'papaparse'
 import { Chart as ChartJS, BarElement, CategoryScale, LinearScale, Tooltip, Legend, ArcElement } from 'chart.js'
 import { Bar, Pie } from 'react-chartjs-2'
 import { Dialog } from '@headlessui/react'
-import { SunIcon, MoonIcon, XMarkIcon, ClipboardDocumentCheckIcon, CheckCircleIcon } from '@heroicons/react/24/outline'
+import { SunIcon, MoonIcon, XMarkIcon, ClipboardDocumentCheckIcon, CheckCircleIcon, BoltIcon } from '@heroicons/react/24/outline'
 
 ChartJS.register(BarElement, CategoryScale, LinearScale, Tooltip, Legend, ArcElement)
 
@@ -761,13 +761,46 @@ export default function App() {
                         {quizGroups.map((g, idx) => {
                           const question = g.baseName;
                           const response = selectedStudent[g.questionKey];
-                          const score = selectedStudent[g.scoreKey];
+                          const scoreStr = selectedStudent[g.scoreKey];
                           const feedback = selectedStudent[g.feedbackKey];
                           // Use normalized lookup
                           const metaInfo = metaMap[g.normalizedName];
+                          
+                          // --- NEW LOGIC START ---
+                          const { score, max } = extractScoreObj(scoreStr);
+      
+                          // 1. Set the BASE styles (Default state looks like the reference)
+                          let baseClasses = "border-gray-200 dark:border-gray-700 shadow-sm"; 
+                          
+                          // 2. define HOVER styles based on score
+                          let hoverClasses = "hover:border-indigo-300 dark:hover:border-indigo-700"; // Default hover (blue)
+                          let StatusIcon = null;
+                          let iconColor = "text-indigo-600 dark:text-indigo-400"; // Default text color
 
+                          if (max > 0) {
+                            if (score === max) {
+                              // Full Score -> Hover turns Green
+                              hoverClasses = "hover:border-emerald-500 dark:hover:border-emerald-500 hover:ring-1 hover:ring-emerald-500 hover:shadow-md hover:shadow-emerald-100 dark:hover:shadow-emerald-900/20";
+                              StatusIcon = CheckCircleIcon;
+                              iconColor = "text-emerald-600 dark:text-emerald-400";
+                            } else if (score === 0) {
+                              // Zero Score -> Hover turns Red
+                              hoverClasses = "hover:border-rose-500 dark:hover:border-rose-500 hover:ring-1 hover:ring-rose-500 hover:shadow-md hover:shadow-rose-100 dark:hover:shadow-rose-900/20";
+                              StatusIcon = XMarkIcon;
+                              iconColor = "text-rose-600 dark:text-rose-400";
+                            } else {
+                              // Partial Score -> Hover turns Yellow
+                              hoverClasses = "hover:border-yellow-500 dark:hover:border-yellow-500 hover:ring-1 hover:ring-yellow-500 hover:shadow-md hover:shadow-yellow-100 dark:hover:shadow-yellow-900/20";
+                              StatusIcon = BoltIcon;
+                              iconColor = "text-yellow-600 dark:text-yellow-400";
+                            }
+                          }
+                          // --- NEW LOGIC END ---
                           return (
-                            <div key={idx} className="bg-white dark:bg-gray-800 border border-gray-200 dark:border-gray-700 rounded-xl p-5 hover:border-indigo-300 dark:hover:border-indigo-700 transition-colors shadow-sm">
+                            <div 
+                              key={idx} 
+                              className={`bg-white dark:bg-gray-800 border rounded-xl p-5 transition-all duration-200 ${baseClasses} ${hoverClasses}`}
+                            >
                               {/* Question Header */}
                               <div className="flex justify-between items-start gap-4 mb-3">
                                 <div>
@@ -788,9 +821,10 @@ export default function App() {
                                   </h4>
                                 </div>
                                 <div className="shrink-0 text-right">
-                                  <div className="text-xs text-gray-400 uppercase font-bold tracking-wide">Score</div>
-                                  <div className="text-lg font-bold text-indigo-600 dark:text-indigo-400 whitespace-nowrap">
-                                    {score || '-'}
+                                  <div className="text-xs text-gray-400 uppercase font-bold tracking-wide">SCORE</div>
+                                  <div className={`text-lg font-bold whitespace-nowrap flex items-center gap-2 ${iconColor}`}>
+                                    {StatusIcon && <StatusIcon className="w-5 h-5" />}
+                                    {scoreStr || '-'}
                                   </div>
                                 </div>
                               </div>
