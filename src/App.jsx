@@ -155,7 +155,7 @@ export default function App() {
   const [search, setSearch] = useState('')
   const [page, setPage] = useState(1)
   const [pageSize, setPageSize] = useState(12)
-  const [sortBy, setSortBy] = useState(null)
+  const [sortBy, setSortBy] = useState('Total score')
   const [sortDir, setSortDir] = useState('desc')
   const [selectedStudent, setSelectedStudent] = useState(null)
   const [dark, setDark] = useDarkMode() 
