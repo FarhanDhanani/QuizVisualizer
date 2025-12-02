@@ -713,8 +713,16 @@ export default function App() {
                     </div>
                     <div className="flex flex-col items-end whitespace-nowrap flex-shrink-0">
                       <div className="text-sm text-gray-500 dark:text-gray-400">Total Score</div>
-                      <div className="text-xl font-bold text-indigo-600 dark:text-indigo-400">
-                        {selectedStudent['Total score']}
+                      <div className="text-lg font-bold text-indigo-600 dark:text-indigo-400">
+                        {(() => {
+                            const value = selectedStudent["Total score"]; // "13.00 / 30.00"
+                            const [obtained, total] = value.split(" / ");
+
+                            const formattedObtained = Number(obtained).toFixed(1);
+                            const formattedTotal = Number(total).toFixed(0);
+
+                            return `${formattedObtained} / ${formattedTotal}`;
+                        })()}
                       </div>
                     </div>
                   </div>
