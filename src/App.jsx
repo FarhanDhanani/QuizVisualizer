@@ -711,9 +711,9 @@ export default function App() {
                         Submitted: {selectedStudent['Timestamp']}
                       </p>
                     </div>
-                    <div className="flex flex-col items-end">
+                    <div className="flex flex-col items-end whitespace-nowrap flex-shrink-0">
                       <div className="text-sm text-gray-500 dark:text-gray-400">Total Score</div>
-                      <div className="text-2xl font-bold text-indigo-600 dark:text-indigo-400">
+                      <div className="text-xl font-bold text-indigo-600 dark:text-indigo-400">
                         {selectedStudent['Total score']}
                       </div>
                     </div>
