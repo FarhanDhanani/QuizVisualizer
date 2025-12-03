@@ -469,7 +469,7 @@ export default function App() {
         
         {dataError && responses.length === 0 && (
           <div className="mb-6 p-4 bg-red-100 dark:bg-red-900/30 border border-red-300 dark:border-red-700 rounded-xl text-red-800 dark:text-red-300 font-medium">
-            No response data found for **{currentLevelLabel}** (expecting file: `level{level}_response.csv`). Displaying zero statistics.
+            No results found for {currentLevelLabel} level from {location}.
           </div>
         )}
 
@@ -704,7 +704,7 @@ export default function App() {
                 <>
                   <div className="p-6 border-b border-gray-100 dark:border-gray-800 flex justify-between items-start bg-gray-50/50 dark:bg-gray-800/50">
                     <div>
-                      <h2 className="text-2xl font-bold text-gray-900 dark:text-white">
+                      <h2 className="text-lg font-bold text-gray-900 dark:text-white">
                         {selectedStudent['Username'] || 'Student Details'}
                       </h2>
                       <p className="text-gray-500 dark:text-gray-400 text-sm mt-1">
