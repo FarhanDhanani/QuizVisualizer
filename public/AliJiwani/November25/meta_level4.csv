@@ -1,21 +1,80 @@
-Question,Section,TotalPoints,Type,CorrectAnswer
+﻿Question,Section,TotalPoints,Type,CorrectAnswer
 Name,Personal Info,0,PI,OpenEnded
 Email,Personal Info,0,PI,OpenEnded
 Identity Number (SO Number),Personal Info,0,PI,OpenEnded
 Contact Number / Mobile Number,Personal Info,0,PI,OpenEnded
-Why does Emma begin to feel less tired after her workouts?,Reading Comprehension,1,MCQ,Her muscles are getting stronger.
-What is a good prediction for what will happen in Emma's next class?,Reading Comprehension,1,MCQ,She will run at least as far as her classmates.
-Which is most likely the opinion of the author?,Reading Comprehension,1,MCQ,Exercise is a good idea.
-How does Emma likely feel after she runs around the track twice?,Reading Comprehension,1,MCQ,Proud
-How would Emma's parents likely feel now that she can keep up with her classmates?,Reading Comprehension,1,MCQ,happy and proud
-Which lesson does Emma learn in this text?,Reading Comprehension,1,MCQ,Exercise makes you stronger.
-She ________ a big project to complete next week.,Grammar,1,MCQ,has
-They ________ already eaten lunch.,Grammar,1,MCQ,had
-I ________ finish this work by tomorrow.,Grammar,1,MCQ,will
-He ________ a lot of toys when he was a child.,Grammar,1,MCQ,had
-________ you help me with this task?,Grammar,1,MCQ,Can
-She ________ go to the party if she finishes her homework.,Grammar,1,MCQ,can
-We ________ never seen such a beautiful sunset before.,Grammar,1,MCQ,have
-"Tomorrow,  she ________ start her new job.",Grammar,1,MCQ,will
-"When he was young,  he ________ climb trees easily.",Grammar,1,MCQ,can
-"Write a detailed email to your teacher, describing your home. Include information about its location, size, design, and the environment around it. Explain what makes it special or meaningful to you. ",Writing,15,Paragraph,OpenEnded
+Is Statement True or False:  Digital tools are only useful for communication within a single country,Reading Comprehension,1,MCQ,FALSE
+Is Statement True or False:  Remote work has completely eliminated the need for physical offices.,Reading Comprehension,1,MCQ,FALSE
+Is Statement True or False:  Managers believe that accountability can be a challenge with remote workers.,Reading Comprehension,1,MCQ,TRUE
+"Fill in the blanks (NO MORE THAN ONE WORD)  
+
+The COVID-19 pandemic played a role in the ______________ of remote work.  ",Reading Comprehension,1,ShortAnswer,Rise
+"Fill in the blanks (NO MORE THAN TWO WORDS)   
+
+Cloud-based project management tools help teams ensure their work stays ____________.",Reading Comprehension,1,ShortAnswer,On Track
+"Fill in the blanks (NO MORE THAN TWO WORDS)
+
+Remote workers can often experience  ____________  if they don’t separate work from personal life.  ",Reading Comprehension,1,ShortAnswer,Potential Burnout
+"Fill in the blanks (NO MORE THAN TWO WORDS)
+
+Remote work has allowed companies to hire people outside their   ____________.",Reading Comprehension,1,ShortAnswer,Talent Pool
+"Short Answer Questions (Give one liner answers only)
+
+Name two communication tools mentioned in the passage.  ",Reading Comprehension,1,ShortAnswerValidate,"Any Pair is Correct: : Zoom and Slack, Zoom and Microsoft Teams, Slack and Microsoft Teams"
+"Short Answer Questions (Give one liner answers only)
+
+According to the passage, what is one challenge remote workers face regarding their personal lives?",Reading Comprehension,1,ShortAnswerValidate,"They may struggle to separate their work and personal lives, which can lead to burnout."
+"Short Answer Questions (Give one liner answers only)
+
+What is one financial benefit companies experience by allowing remote work? ",Reading Comprehension,1,ShortAnswerValidate,They can reduce office space and lower rental costs.
+"Complete the sentences by choosing the correct form of the verb.
+
+If I __________ more time, I would finish the project today.",Grammer,1,ShortAnswer,had
+"Complete the sentences by choosing the correct form of the verb. 
+She __________ very tired yesterday because she worked late the night before.",Grammer,1,ShortAnswer,was
+"Identify the error in each sentence and correct it. (Write correct version of the sentence in one line only) 
+
+
+Incorrect: She don’t like to travel by car. 
+Correct:  _____________________",Grammer,1,ShortAnswerValidate,She doesn’t like to travel by car.
+"Identify the error in each sentence and correct it. (Write correct version of the sentence in one line only) 
+
+
+Incorrect: He has went to the store, but he forgot to buy milk.
+Correct:  _____________________",Grammer,1,ShortAnswerValidate,"He has gone to the store, but he forgot to buy milk."
+Choose the correct preposition to complete the sentence They have been living in Canada __________ 2010.  ,Grammer,1,MCQ,Since
+"Choose the correct word to complete the sentence: 
+
+The project was completed well ahead of the __________.  ",Vocabulary,1,MCQ,Deadline
+"Choose the correct word to complete the sentence:
+
+The company has decided to __________ its new product next month.",Vocabulary,1,MCQ,Launch
+"Select the correct synonym of the following word 
+Essential",Vocabulary,1,MCQ,Necessary
+"Select the correct synonym of the following word
+Accurate",Vocabulary,1,MCQ,Correct
+"Complete the sentence with a word that means the opposite of the word in brackets. In the answer write only a word.
+
+The weather today is __________ (terrible), so we can finally go for a walk.  ",Vocabulary,1,ShortAnswerValidate,words like nice or pleasant are correct answer
+What is the girl’s name?,Listening,1,ShortAnswer,PAT
+How old is she? ,Listening,1,ShortAnswer,Nine
+ How many cousins has Pat got?,Listening,1,MCQ,12
+ What is the name of Pat’s favorite game?,Listening,1,ShortAnswer,Duck
+Which beach does Pat like to go to?,Listening,1,ShortAnswer,Shell
+ How many books has Pat got?,Listening,1,ShortAnswer,20
+What is the teacher’s name?,Listening,1,ShortAnswer,LORRY
+"You should spend about 20 minutes on this task.
+Write an email to a friend who is planning to visit your country for the first time. In your letter:
+Recommend the best time of year to visit
+Suggest some places they should see
+Offer advice about what to bring
+Write at least 150 words.
+—-------------—-------------—-------------—-------------—-------------—-------------—-
+FOR TEACHERS ONLY
+Marking Criteria:
+Task Achievement (3 marks): How well you respond to all parts of the task and provide clear, relevant information.
+Coherence and Cohesion (2 marks): How logically your ideas are organized and connected.
+Lexical Resource (2 marks): The range and accuracy of vocabulary used.
+Grammatical Range and Accuracy (3 marks): The range and accuracy of grammatical structures used.
+
+",Writing,10,Paragraph,OpenEnded
