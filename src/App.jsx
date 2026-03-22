@@ -19,16 +19,16 @@ const LEVEL_CONFIG = [
   { level: 4, label: 'Level 4' },
 ]
 const LOCATIONS = ["AliJiwani", "Gulshan-e-Noor"];
-const DEFAULT_LEVEL = 2
+const DEFAULT_LEVEL = 0
 const DEFAULT_LOCATION= 'AliJiwani'
 
 const MONTHS = [
    "November25",
-   //"December25",
+   "March26",
 ];
 
 const RECENT_MONTH_PER_LOCATION = {
-  AliJiwani: "November25",
+  AliJiwani: "March26",
   "Gulshan-e-Noor": "November25", // <-- Corrected
 };
 
