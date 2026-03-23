@@ -3,8 +3,7 @@ Name,Personal Info,0,PI,OpenEnded
 Email,Personal Info,0,PI,OpenEnded
 Identity Number (SO Number),Personal Info,0,PI,OpenEnded
 Contact Number / Mobile Number,Personal Info,0,PI,OpenEnded
-Read the text: 'Hello! My name is Ali. I am 20 years old. I am a student.',,,,
-How old is Ali?,Reading Comprehension,1,MCQ,20 years old
+Read the text: 'Hello! My name is Ali. I am 20 years old. I am a student.' How old is Ali?,Reading Comprehension,1,MCQ,20 years old
 Complete the sentence: 'I __________ a doctor.',Grammar,1,MCQ,am
 Which word is an animal?,Vocabulary,1,MCQ,Cat
 "Choose the correct plural form: 'One book, two __________.'",Grammar,1,MCQ,books

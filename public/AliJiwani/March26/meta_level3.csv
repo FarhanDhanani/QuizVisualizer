@@ -1,0 +1,24 @@
+Question,Section,TotalPoints,Type,CorrectAnswer
+Name,Personal Info,0,PI,OpenEnded
+Email,Personal Info,0,PI,OpenEnded
+Identity Number (SO Number),Personal Info,0,PI,OpenEnded
+Contact Number / Mobile Number,Personal Info,0,PI,OpenEnded
+"According to the passage, how has the ""standard vision"" of a city changed over time?",Reading Comprehension,1,MCQ,Planners are now incorporating nature into the design of buildings rather than keeping it separate
+"What is the ""Urban Heat Island"" effect described in the text? ",Reading Comprehension,1,MCQ,The tendency for cities to be warmer than rural areas due to heat-absorbing materials.
+"Why does the passage mention ""Flying Gardeners""?",Reading Comprehension,1,MCQ,To highlight the unique and difficult maintenance required for vertical forests
+What is a major engineering challenge mentioned in the text regarding green skyscrapers?,Reading Comprehension,1,MCQ,The weight of wet trees requiring significant structural reinforcement.
+What is the author’s primary purpose in writing this passage?,Reading Comprehension,1,MCQ,To explore a new architectural trend that addresses urban environmental issues.
+The sudden ___________ (dark) made it difficult to find the keys.,Vocabulary,1,ShortAnswer,Darkness
+He is very ___________ (create) and loves to paint in his free time.,Vocabulary,1,ShortAnswer,Creative
+The teacher gave us clear ___________ (instruct) for the project.,Vocabulary,1,ShortAnswer,Instruction
+Regular exercise is ___________ (benefit) to your overall health.,Vocabulary,1,ShortAnswer,Beneficial
+They __________ (watch) a movie when the phone rang.,Grammar,1,ShortAnswer,were watching
+We __________ (visit) our grandparents next weekend.  ,Grammar,1,ShortAnswer,will visit
+My brother is very good __________ playing the guitar.  ,Grammar,1,ShortAnswer,at
+I will meet you __________ the bus stop at 5:00 PM.,Grammar,1,ShortAnswer,at
+"Task: Write a detailed essay or article about a time you either helped someone else or received help when you needed it most.
+In your writing, please include:
+The Situation: Describe what was happening. What was the problem or the challenge that required someone to step in?
+The Action: What exactly did you (or the other person) do to help? Describe the interaction clearly.
+The Reaction: How did it feel at that exact moment? Was there a sense of relief, surprise, or pride?
+The Lesson: Reflect on what that experience taught you about kindness or teamwork. How did it change your relationship with that person or your view of others?",Writing,15,Paragraph,OpenEnded

@@ -1,0 +1,25 @@
+Question,Section,TotalPoints,Type,CorrectAnswer
+Name,Personal Info,0,PI,OpenEnded
+Email,Personal Info,0,PI,OpenEnded
+Identity Number (SO Number),Personal Info,0,PI,OpenEnded
+Contact Number / Mobile Number,Personal Info,0,PI,OpenEnded
+"At the beginning of the story, why did Liam believe he couldn't draw portraits well?",Reading Comprehension,1,MCQ,"He believed he lacked a natural, born talent for it"
+How does Leo’s view of art differ from Liam’s initial view?,Reading Comprehension,1,MCQ,Leo believes art is a skill that can be developed through training
+What was the first sign that Liam’s hard work in the sketching class was paying off?,Reading Comprehension,1,MCQ,His lines became steadier and he understood depth better
+"What does the word ""perspective"" most likely mean as used by Ms. Gable?",Reading Comprehension,1,MCQ,The technique of representing three-dimensional objects on a flat surface
+Which of the following best describes the theme of the passage?  ,Reading Comprehension,1,MCQ,Persistence and practice lead to improvement and growth
+She ________ her keys in the car this morning.,Grammar,1,MCQ,left
+We ________ going to the beach if it stays sunny. ,Grammar,1,MCQ,are
+________ you ever traveled to Japan?,Grammar,1,MCQ,have
+He ________ speak three languages fluently.,Grammar,1,MCQ,can
+"By the time I arrived, they ________ already started the meeting.",Grammar,1,MCQ,had
+"If I were you, I ________ apologize to her.",Grammar,1,MCQ,would
+It ________ raining for three hours now.,Grammar,1,MCQ,has been
+You ________ not park your car in front of the gate.,Grammar,1,MCQ,must
+They ________ watching a movie when the power went out.,Grammar,1,MCQ,were
+"Task: Write a formal letter or a detailed email to your instructor describing a specific workspace or study area where you spend most of your time.
+In your writing, ensure you cover the following points:
+Location & Setup: Where is this space located (e.g., a corner of a room, a library, or a home office), and how is it organized?
+Design & Atmosphere: Describe the furniture, lighting, and any specific tools or technology you use. What is the ""vibe"" of the room (e.g., minimalist, cluttered but cozy, modern)?
+The Surrounding Environment: What can you see or hear from this spot? Is it a quiet sanctuary or in the middle of a busy area?
+Personal Significance: Explain why this specific environment helps you stay productive or inspired. Mention one particular object in this space that is meaningful to you.",Writing,15,Paragraph,OpenEnded

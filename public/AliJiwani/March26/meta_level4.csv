@@ -1,0 +1,64 @@
+Question,Section,TotalPoints,Type,CorrectAnswer
+Name,Personal Info,0,PI,OpenEnded
+Email,Personal Info,0,PI,OpenEnded
+Identity Number (SO Number),Personal Info,0,PI,OpenEnded
+Contact Number / Mobile Number,Personal Info,0,PI,OpenEnded
+Is Statement True or False:   Modern automation is still strictly limited to repetitive manual labor. ,Reading Comprehension,1,MCQ,FALSE
+"Is Statement True or False:   ""De-skilling"" refers to a situation where workers lose their specialized expertise because of over-reliance on machines.  ",Reading Comprehension,1,MCQ,TRUE
+Is Statement True or False:   Errors made by autonomous agents in physical environments are considered negligible by the author.  ,Reading Comprehension,1,MCQ,FALSE
+Fill in the blanks (NO MORE THAN ONE WORD): AI agents are capable of processing __________ datasets much faster than humans can.,Reading Comprehension,1,ShortAnswer,Multi-Dimensional
+"Fill in the blanks (NO MORE THAN ONE WORD): When a worker only acts as a supervisor for a machine, they are often called a ""human-in-the-__________.""",Reading Comprehension,1,ShortAnswer,Loop
+Fill in the blanks (NO MORE THAN ONE WORD): The transition to intelligent automation is described as a fundamental shift in the __________ landscape.  ,Reading Comprehension,1,ShortAnswer,Economic
+"Short Answer Questions (Give one liner answers only): What is the main difference between ""traditional"" automation and ""modern"" automation according to the text? ",Reading Comprehension,1,ShortAnswerValidate,"Traditional automation focused on manual, repetitive tasks, whereas modern automation involves cognitive domains and intelligent reasoning"
+"Short Answer Questions (Give one liner answers only):  Why is the ""sim-to-real"" gap significant for the future of the physical workforce?",Reading Comprehension,1,ShortAnswerValidate,It is significant because it allows automation to move from digital screens into physical environments like factories and hospitals.
+Short Answer Questions (Give one liner answers only):  What is the primary argument used by proponents of automation?  ,Reading Comprehension,1,ShortAnswerValidate,They argue that it boosts productivity and allows humans to focus on creative problem-solving and strategy.
+"Complete the sentences by choosing the correct form of the verb:  If the manager __________ the report earlier, we could have avoided the delay.  ",Grammar,1,MCQ,had sent
+Complete the sentences by choosing the correct form of the verb:  She __________ very tired yesterday because she had worked late the night before.  ,Grammar,1,MCQ,was
+"Identify the error in each sentence and correct it. (Write correct version of the sentence in one line only) 
+
+
+Incorrect: Each of the team members have submitted their report.  
+Correct:  _____________________",Grammar,1,ShortAnswerValidate,Each of the team members has submitted their report.
+"Identify the error in each sentence and correct it. (Write correct version of the sentence in one line only) 
+
+
+Incorrect: The engine runs very smooth after the recent maintenance. 
+Correct:  _____________________",Grammar,1,ShortAnswerValidate,The engine runs very smoothly after the recent maintenance.
+Choose the correct preposition to complete the sentence They have been living in Pakistan __________ 2010.  ,Grammar,1,MCQ,Since
+Choose the correct word to complete the sentence: The research findings provided a significant ___________ into the behavior of the new model.,Vocabulary,1,MCQ,Insight
+"Choose the correct word to complete the sentence:  In order to stay competitive, the team must __________ the challenges of the evolving market.  ",Vocabulary,1,MCQ,Meet
+"Select the correct synonym of the following word 
+  Crucial  ",Vocabulary,1,MCQ,Vital
+"Select the correct antonym of the following word
+  Apparent  ",Vocabulary,1,MCQ,Hidden
+"Complete the sentence with a word that means the opposite of the word in brackets. In the answer write only a word.
+
+The instructions for the new software were quite __________ (complex), so everyone was able to use it without any help.  ",Vocabulary,1,ShortAnswer,Simple or Easy
+What is the girl’s name?,Listening,1,ShortAnswer,PAT
+How old is she?,Listening,1,ShortAnswer,Nine
+How many cousins has Pat got?,Listening,1,MCQ,12
+What is the name of Pat’s favorite game?,Listening,1,ShortAnswer,Duck
+Which beach does Pat like to go to?,Listening,1,ShortAnswer,Shell
+How many books has Pat got?,Listening,1,ShortAnswer,20
+What is the teacher’s name?,Listening,1,ShortAnswer,LORRY
+"Task: A professional colleague from an international branch of your company is planning a week-long visit to your country to combine business meetings with local exploration. They have asked you to draft a formal travel proposal to help them prepare for their trip.
+In your email, you must:
+Evaluate the most suitable season for their visit, considering both the climate and any significant cultural events that might impact business operations.
+Propose a curated selection of locations that offer a balance between historical significance and modern development.
+Advise on essential items to pack, specifically focusing on local etiquette, professional dress codes, and climate-specific requirements.
+
+Teacher’s Guide: What to look for at each mark level
+
+Task Achievement (4 Marks)
+4/4: All parts of the task are fully developed with sophisticated reasoning.
+2/4: Addresses all parts but only at a superficial ""list-like"" level.
+0-1/4: Fails to address one or more prompts or the tone is too casual.
+Coherence & Cohesion (4 Marks)
+4/4: Smooth transitions between sections; excellent use of formatting (like bullet points or clear headers) to aid readability.
+2/4: Uses basic transitions (e.g., First, Second, Also) which makes the writing feel repetitive.
+Lexical Resource (4 Marks)
+4/4: Natural use of idiomatic professional language; no repetition of simple words like ""good"" or ""nice.""
+2/4: Adequate vocabulary for the task but lacks ""flavour"" or precision.
+Grammatical Range (3 Marks)
+3/3: Error-free or very minor ""slips."" Uses a mix of simple and complex sentences effortlessly.
+1/3: Frequent errors in tense or punctuation that occasionally distract the reader.",Writting,10,Paragraph,OpenEnded
